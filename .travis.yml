@@ -1,5 +1,5 @@
 language: java
 script:
-  - ./gradlew build --scan -s
+  - echo yes | ./gradlew build --scan -s
 notifications:
   slack: se452-group-3:dv5GefwK11jcZ1CJXvXhiQey
