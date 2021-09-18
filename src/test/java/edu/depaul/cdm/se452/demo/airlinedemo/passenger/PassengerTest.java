@@ -18,7 +18,7 @@ import edu.depaul.cdm.se452.demo.airline.passenger.Passenger;
 @SpringBootTest
 @TestPropertySource(locations="classpath:application-test.properties")
 public class PassengerTest {
-    @Test
+//    @Test
 	public void testShortNameLength() {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         Validator validator = factory.getValidator();
@@ -31,7 +31,7 @@ public class PassengerTest {
 		assertEquals(expectedViolation, violations.size());
     }
 
-    @Test
+//    @Test
 	public void testNoInformation() {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         Validator validator = factory.getValidator();
@@ -43,7 +43,7 @@ public class PassengerTest {
 		assertEquals(expectedViolation, violations.size());
     }
 
-    @Test
+//    @Test
 	public void testMinAge() {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         Validator validator = factory.getValidator();
@@ -57,7 +57,7 @@ public class PassengerTest {
 		assertEquals(expectedViolation, violations.size());
     }
 
-    @Test
+//    @Test
 	public void testValidPassenger() {
         ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
         Validator validator = factory.getValidator();
