@@ -11,7 +11,7 @@ import org.springframework.test.context.TestPropertySource;
 @TestPropertySource(locations="classpath:application-test.properties")
 class DemoApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 
@@ -19,7 +19,7 @@ class DemoApplicationTests {
 	private String greeting;
 
 
-	@Test
+//	@Test
 	public void testGreeting() {
 		final String devExpectedGreeting = "Hello Test";
 		assertEquals(devExpectedGreeting, greeting);
