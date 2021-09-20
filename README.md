@@ -27,7 +27,7 @@ Go to the database directory and run the docker command to create the database.
 * https://github.com/se452-group3/airline-project
 
 **How conflicts will be resolved**
-* Pull request will be created for each commits and will require one review approval to be able to merge to main branch
+* Vote will be done and majority will decide the conflict
 
 **Communication mechanism**
 * Slack and Zoom
